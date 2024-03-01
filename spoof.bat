@@ -1,0 +1,2 @@
+REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName /v ComputerName /t REG_SZ /d  V%random%AK%random%%random% /f >nul 2>&1
+REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName /v ComputerName /t REG_SZ /d  H%random%J7%random% /f >nul 2>&1
